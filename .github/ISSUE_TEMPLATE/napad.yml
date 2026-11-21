@@ -1,0 +1,15 @@
+name: Nápad
+description: Námět na novou funkci, vylepšení nebo zjednodušení
+title: "[Nápad]: "
+labels: ["napad"]
+body:
+  - type: textarea
+    id: navrh
+    attributes:
+      label: Co navrhujeme a jaký problém to řeší
+    validations:
+      required: true
+  - type: textarea
+    id: otazky
+    attributes:
+      label: Otevřené otázky / co ověřit před grillováním

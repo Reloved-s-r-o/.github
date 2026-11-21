@@ -1,0 +1,28 @@
+name: Chyba
+description: Nahlášení chyby v aplikaci nebo automatizaci
+title: "[Chyba]: "
+labels: ["chyba"]
+body:
+  - type: textarea
+    id: popis
+    attributes:
+      label: Popis chyby
+      description: Co se stalo vs. co se mělo stát. Nikdy nevkládej osobní data pacientů ani skutečné e-maily/výpisy.
+    validations:
+      required: true
+  - type: textarea
+    id: reprodukce
+    attributes:
+      label: Kroky k reprodukci
+    validations:
+      required: true
+  - type: dropdown
+    id: dopad
+    attributes:
+      label: Dopad
+      options:
+        - Nízký (kosmetika / okrajový případ)
+        - Střední (zhoršuje práci, existuje náhradní cesta)
+        - Vysoký (blokuje klíčový tok nebo ohrožuje data)
+    validations:
+      required: true
