@@ -1,0 +1,26 @@
+name: Úkol
+description: Zadání práce (ideálně rozsah jedné session agenta do ~150k tokenů)
+title: "[Úkol]: "
+labels: ["ukol"]
+body:
+  - type: textarea
+    id: popis
+    attributes:
+      label: Co a proč
+      description: Popis úkolu, kontext a případný odkaz na specifikaci.
+    validations:
+      required: true
+  - type: textarea
+    id: kriteria
+    attributes:
+      label: Kdy je hotovo
+      description: Konkrétní kritéria přijetí a testy, které musí projít.
+    validations:
+      required: true
+  - type: checkboxes
+    id: kontrola
+    attributes:
+      label: Kontrola zadání
+      options:
+        - label: Neobsahuje osobní data, tajné klíče ani neanonymizovaná data z provozu
+          required: true
