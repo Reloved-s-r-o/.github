@@ -27,4 +27,4 @@ Vyber kombinaci vratnosti a dopadu (*blast radius*):
 
 - [ ] Žádná osobní data (pacientů, rodičů, klientů, jednatelů), žádná neanonymizovaná data z pilotu, žádné tajné klíče ani `.env`
 - [ ] Prošly automatické kontroly (lint, typy, testy)
-- [ ] Pokud přibyl nový pojem nebo těžko vratné rozhodnutí, je zapsáno v `CONTEXT.md` / `docs/adr/`
+- [ ] Pokud přibyl nový pojem nebo těžko vratné rozhodnutí, je zapsáno v `GLOSSARY.md` / `docs/adr/`
